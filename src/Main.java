@@ -27,7 +27,7 @@ public class Main {
 			change = change - (num20*20);
 			
 			int num10 = (int)(change/10);
-			System.out.println(num10+" x $20");
+			System.out.println(num10+" x $10");
 			change = change - (num10*10);
 			
 			int num5 = (int)(change/5);
@@ -42,16 +42,12 @@ public class Main {
 			System.out.println(num1+" x $1");
 			change = change - (num1*1);
 			
-			double num05 = (double)(change/0.5);
-			System.out.println(num05+" x $0.5");
-			change = change - (num05*0.5);
-			
 			double num025 = (double)(change/0.25);
 			System.out.println(num025+" x $0.25");
 			change = change - (num025*0.25);
 			
 			double num01 = (double)(change/0.1);
-			System.out.println(num01+" x $0.1");
+			System.out.println(num01+" x $0.10");
 			change = change - (num01*0.1);
 			
 			double num005 = (double)(change/0.05);
